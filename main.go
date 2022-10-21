@@ -1,14 +1,21 @@
 package main
 
 import (
+	"os"
+
 	"github.com/oyamo/rmx/src"
 )
 
 func main () {
 	engine, err := src.NewEngine()
 	if err != nil {
-		panic(err)
+		src.PrintErr(err.Error())
+		os.Exit(1)
 	}
-	
-	engine.Run()
+
+	err = engine.Run()
+	if err != nil {
+		src.PrintErr(err.Error())
+		os.Exit(1)
+	}
 }
