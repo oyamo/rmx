@@ -2,7 +2,6 @@ package main
 
 import (
 	"os"
-
 	"github.com/oyamo/rmx/src"
 )
 
