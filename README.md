@@ -1,6 +1,7 @@
 # rmx : Military Grade Deletion
-rmx is a command line tool for securely deleting files and folders. 
-Depending on the file size, `rmx` will take a long time to delete the file than `rm`.
+Usually when you delete a file using `rm`, It removes the pointer to the file system. However, the data can still be accessed by forensic/data recovery tools.
+
+`rmx` Shreds your files/folders by overwriting them with multiple rounds of random data. It also removes the pointer to the file system. This makes it impossible to recover the data.
 
 ## Installation
 ```bash
