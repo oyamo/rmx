@@ -18,9 +18,9 @@ go get github.com/oyamo/rmx
 - [x] Delete files in a folder recursively
 - [x] Delete files in a folder recursively with a regex pattern
 - [x] Write random bytes to the file
-- [] Zero out the file
-- [] Randomize the file name
-- [] Update makefile to install the binary in /usr/local/bin
-- [] Add a progress bar
-- [] Create deb and rpm packages
+- [ ] Zero out the file
+- [ ] Randomize the file name
+- [ ] Update makefile to install the binary in /usr/local/bin
+- [ ] Add a progress bar
+- [ ] Create deb and rpm packages
 
