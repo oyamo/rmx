@@ -6,7 +6,7 @@ Usually when you delete a file using `rm`, It removes the pointer to the file sy
 ## Installation
 ```bash
 go install github.com/oyamo/rmx
-echo "export PATTH=$PATH:/home/$USER/go/bin" >> ~/.bashrc
+echo "export PATH=$PATH:/home/$USER/go/bin" >> ~/.bashrc
 ```
 
 ## Screenshots
