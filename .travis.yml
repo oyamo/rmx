@@ -1,0 +1,15 @@
+# this gives full access to the repo
+# in the job
+
+language: minimal
+sudo: required
+
+services:
+  - docker
+
+addons:
+    apt:
+        packages:
+        - docker-ce
+
+script: build-deb DEB_PACKAGE_DESCRIPTION="Military Deletion Software" DEB_PACKAGE_NAME="rmx" DEB_PACKAGE_VERSION="1.0.0" BINARY_NAME="rmx"
